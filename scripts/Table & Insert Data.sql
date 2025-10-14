@@ -1,3 +1,16 @@
+/*
+========================================================
+Create Table and Inserting Data 
+========================================================
+Script Purpose:
+  This script creates a new Tables and inseting Data  
+  If the table exists, it is dropped and recreated.
+
+WARNING:
+  Running this script will drop the entire 'DataWarehouse' database all tables and schema delete dont drop and truncate .
+  All data in the database will be permanently deleted. Proceed with caution and ensure you have proper backups before running this script.
+*/
+
 
 CREATE TABLE bronze.crm_cust_info(
 cst_id	INT,
